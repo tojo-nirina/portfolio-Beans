@@ -333,22 +333,23 @@ nav img {
 .section-six {
     position: absolute;
     width: 100%;
-    height: 592px;
     top: 760px;
-    padding: 0 191px 0 128px;
+    /*padding: 0 191px 0 128px;*/
 }
 .title-contact {
     display: flex;
     align-items: center;
     justify-content: left;
     margin-top: 44px;
+    position: relative;
+    margin-left: 170px;
 }
 .input-contact {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 87px;
     gap: 100px;
+    padding: 90px 210px 90px 210px;
 }
 form {
     width: 100%;
@@ -426,5 +427,176 @@ button {
 }
 /*responsive*/
 @media screen and (max-width: 1920px){
-    
+    nav {
+        padding: 30px 100px;
+    }
+    .group-1 {
+        padding: 0 65px 0 170px;
+    }
+    .second-section {
+        padding: 0 170px;
+    }
+    .contact {
+        padding: 35px;
+    }
+}
+@media screen and (max-width: 1540px) {
+    .contact {
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    nav {
+        padding: 27px 36px;
+    }
+    .contact {
+        padding: 20px;
+    }
+    .group-1 {
+        padding:0 0 0 121px;
+    }
+    .second-section {
+        padding: 0 121px;
+    }
+    .title-contact {
+        margin-left: 121px;
+    }
+    .input-contact {
+        padding: 90px 160px 90px 160px;
+    }
+    .contact {
+        padding: 12px;
+    }
+}
+@media screen and (max-width: 1115px) {
+    .group-1 {
+        padding: 0 0 0 65px;
+    }
+    .second-section {
+        padding: 0 65px;
+    }
+    .title-contact {
+        margin-left: 65px;
+    }
+    .input-contact {
+        padding: 90px 100px 90px 100px;
+    }
+}
+@media screen and (max-width: 1115px)  {
+    .group-1 .name {
+        font-size: 55px;
+        line-height: 78px;
+    }
+    .group-1 .full-stack {
+        font-size: 18px;
+    }
+    #first-section {
+        height: 600px;
+    }
+    .group-1 .iphone {
+        width: 300px!important;
+    }
+    .second-section {
+        top: 670px;
+    }
+    .service .group-service-iphone {
+        width: 400px;
+        right: 100px;
+    } 
+}
+@media screen and (max-width: 992px)  {
+    .group-1 {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .group-1 .name {
+        font-size: 78px;
+        line-height: 100px;
+        text-align: center;
+    }
+    #first-section {
+        height: 100vh;
+    }
+    .group-1 .iphone {
+        width: 460px!important;
+    }
+    .second-section {
+        top: 1034px;
+    }
+    .presentation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .group-1 .iphone {
+        display: flex;
+        position: relative;
+        left: 75px;
+    }
+    .group-1 {
+        padding: 0 0 0 0;
+    }
+    .second-section {
+        display: flex;
+        align-items: center;
+        padding: 0 ;
+        flex-direction: column;
+        margin-top: 45px;
+    }
+    .second-section .profil {
+        margin-top: 70px;
+    }
+    .tiers-section {
+        top: 1935px;
+        height: 100%;
+        padding: 55px 55px;
+    }
+    .about, .title-contact {
+        justify-content: center;
+    }
+    .service {
+        display: flex;
+        align-items: center;                                                                                      
+        flex-direction: column;
+    }
+    .fourth-section {
+        top: 3585px;
+    }
+    .portfolio {
+        display: flex;
+        flex-direction: column;
+        padding: 0 60px;
+    }
+    .service .right-service .title-paragraph {
+        text-align: start;
+    }
+    .right-service .group-service {
+        flex-direction: row-reverse;
+    }
+    .service .right-service {
+        left: 0;
+    }
+    .service .left-service {
+        right: 0;
+    }
+    .service .group-service .paragraph {
+        width: 100%;
+    }
+    .about-me {
+        width: 90%;
+    }
+    .input-contact {
+        display: flex;
+        flex-direction: column;
+        padding: 90px 210px 90px 210px;
+    }
+    .input-contact {
+        display: flex;
+        flex-direction: column;
+        padding: 90px 100px 90px 100px;
+    }
+    .contact {
+        padding: 40px;
+    }
 }
